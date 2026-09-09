@@ -1,0 +1,369 @@
+{
+  "accounts": [
+    {
+      "id": "e34a84a1-9ddc-460f-86d3-55cc2606570b",
+      "name": "Banco Inter",
+      "type": "Conta Corrente",
+      "holder": "Empresa LTDA",
+      "balance": 18540.75,
+      "color": "#f97316"
+    },
+    {
+      "id": "e014db55-d5e9-4662-94a2-7b4891c2b401",
+      "name": "Nubank PJ",
+      "type": "Conta Corrente",
+      "holder": "Empresa LTDA",
+      "balance": 9320.1,
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "1ed47e95-2e9a-4604-80ae-ef6dedf60fd5",
+      "name": "Caixa (dinheiro)",
+      "type": "Caixa Interno",
+      "holder": "Loja física",
+      "balance": 1275,
+      "color": "#10b981"
+    }
+  ],
+  "cards": [
+    {
+      "id": "a9e8ac0d-4430-48a1-9003-623df88eb09d",
+      "name": "Inter Mastercard",
+      "brand": "Mastercard",
+      "limit": 12000,
+      "closingDay": 28,
+      "dueDay": 7,
+      "color": "#0f172a"
+    },
+    {
+      "id": "484e8bd6-20dc-4281-ae3d-96a484f35e23",
+      "name": "Nubank Ultravioleta",
+      "brand": "Visa",
+      "limit": 8000,
+      "closingDay": 20,
+      "dueDay": 27,
+      "color": "#7c3aed"
+    }
+  ],
+  "payables": [
+    {
+      "id": "a4afa220-efa1-48b3-be8e-ba479c7c23de",
+      "description": "Aluguel do escritório",
+      "category": "Aluguel",
+      "value": 3500,
+      "dueDate": "2026-09-05",
+      "status": "pago",
+      "paidDate": "2026-09-05",
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b",
+      "cardId": null
+    },
+    {
+      "id": "f04b3a2e-1fca-436a-ad01-55eff61cf5a9",
+      "description": "Folha de pagamento",
+      "category": "Salários",
+      "value": 9800,
+      "dueDate": "2026-09-05",
+      "status": "pago",
+      "paidDate": "2026-09-05",
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b",
+      "cardId": null
+    },
+    {
+      "id": "b9e0bdca-9780-4887-826a-53bc55698c25",
+      "description": "Fornecedor ABC — matéria-prima",
+      "category": "Fornecedores",
+      "value": 4250.9,
+      "dueDate": "2026-09-10",
+      "status": "pago",
+      "paidDate": "2026-09-09",
+      "accountId": "e014db55-d5e9-4662-94a2-7b4891c2b401",
+      "cardId": null
+    },
+    {
+      "id": "4af2c8a3-01e0-495f-8c5f-7b841b1fed7d",
+      "description": "Energia elétrica",
+      "category": "Energia",
+      "value": 687.45,
+      "dueDate": "2026-09-12",
+      "status": "pago",
+      "paidDate": "2026-09-12",
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b",
+      "cardId": null
+    },
+    {
+      "id": "a8a01323-5641-4f45-9193-6de9ef1ce4ea",
+      "description": "Internet fibra 600MB",
+      "category": "Internet/Telefone",
+      "value": 189.9,
+      "dueDate": "2026-09-15",
+      "status": "pendente",
+      "paidDate": null,
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b",
+      "cardId": null
+    },
+    {
+      "id": "7a695c24-4642-4caf-9c2c-33527269456b",
+      "description": "DAS — Simples Nacional",
+      "category": "Impostos",
+      "value": 2140.33,
+      "dueDate": "2026-09-20",
+      "status": "pendente",
+      "paidDate": null,
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b",
+      "cardId": null
+    },
+    {
+      "id": "e1f8d602-53cd-49a2-9d2a-2a03717221cc",
+      "description": "Google Ads",
+      "category": "Marketing",
+      "value": 1200,
+      "dueDate": "2026-09-18",
+      "status": "pendente",
+      "paidDate": null,
+      "accountId": null,
+      "cardId": "a9e8ac0d-4430-48a1-9003-623df88eb09d"
+    },
+    {
+      "id": "6f1e97ea-572b-46bd-81ce-58b5da66a7fa",
+      "description": "Assinatura ERP + CRM",
+      "category": "Software",
+      "value": 349.9,
+      "dueDate": "2026-09-22",
+      "status": "pendente",
+      "paidDate": null,
+      "accountId": null,
+      "cardId": "484e8bd6-20dc-4281-ae3d-96a484f35e23"
+    },
+    {
+      "id": "a49a93b0-cefd-48e3-85e9-bb75225faad6",
+      "description": "Manutenção do ar-condicionado",
+      "category": "Manutenção",
+      "value": 420,
+      "dueDate": "2026-09-25",
+      "status": "pendente",
+      "paidDate": null,
+      "accountId": "1ed47e95-2e9a-4604-80ae-ef6dedf60fd5",
+      "cardId": null
+    },
+    {
+      "id": "72da7047-9347-4976-9130-4995d3d3d11b",
+      "description": "Combustível — entregas",
+      "category": "Transporte",
+      "value": 610.5,
+      "dueDate": "2026-09-27",
+      "status": "pendente",
+      "paidDate": null,
+      "accountId": null,
+      "cardId": "a9e8ac0d-4430-48a1-9003-623df88eb09d"
+    },
+    {
+      "id": "25d7b292-84e0-4e02-9eb4-37a0ddabf3d2",
+      "description": "Fornecedor XYZ — embalagens",
+      "category": "Fornecedores",
+      "value": 980,
+      "dueDate": "2026-08-22",
+      "status": "pago",
+      "paidDate": "2026-08-22",
+      "accountId": "e014db55-d5e9-4662-94a2-7b4891c2b401",
+      "cardId": null
+    },
+    {
+      "id": "608f65ee-136a-4710-9910-54cbe0313ca2",
+      "description": "Aluguel do escritório",
+      "category": "Aluguel",
+      "value": 3500,
+      "dueDate": "2026-08-05",
+      "status": "pago",
+      "paidDate": "2026-08-05",
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b",
+      "cardId": null
+    },
+    {
+      "id": "7d24d2c1-f11e-4594-9395-906a5674b865",
+      "description": "Folha de pagamento",
+      "category": "Salários",
+      "value": 9800,
+      "dueDate": "2026-08-05",
+      "status": "pago",
+      "paidDate": "2026-08-05",
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b",
+      "cardId": null
+    },
+    {
+      "id": "1f967c48-1551-48e2-9779-d93e3b4aff58",
+      "description": "Energia elétrica",
+      "category": "Energia",
+      "value": 712.3,
+      "dueDate": "2026-08-12",
+      "status": "pago",
+      "paidDate": "2026-08-12",
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b",
+      "cardId": null
+    },
+    {
+      "id": "650078cf-7fe0-4395-8dc8-2490d3ee9d82",
+      "description": "Aluguel do escritório",
+      "category": "Aluguel",
+      "value": 3500,
+      "dueDate": "2026-07-05",
+      "status": "pago",
+      "paidDate": "2026-07-05",
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b",
+      "cardId": null
+    },
+    {
+      "id": "3191929f-7961-4661-b75f-9ad0afd8d9e0",
+      "description": "Folha de pagamento",
+      "category": "Salários",
+      "value": 9450,
+      "dueDate": "2026-07-05",
+      "status": "pago",
+      "paidDate": "2026-07-05",
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b",
+      "cardId": null
+    },
+    {
+      "id": "c146e970-e4e0-4820-9cf9-d4432d92cfaa",
+      "description": "Aluguel do escritório",
+      "category": "Aluguel",
+      "value": 3500,
+      "dueDate": "2026-10-05",
+      "status": "pendente",
+      "paidDate": null,
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b",
+      "cardId": null
+    }
+  ],
+  "receivables": [
+    {
+      "id": "82821936-3d6a-4c74-bd97-26ff1be8fd16",
+      "description": "NF 1042 — Cliente Alfa",
+      "category": "Vendas",
+      "value": 8900,
+      "dueDate": "2026-09-04",
+      "status": "recebido",
+      "receivedDate": "2026-09-04",
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b"
+    },
+    {
+      "id": "ff0f8d5b-2795-42d0-96e8-96cf1a58271b",
+      "description": "Projeto site institucional — Beta Corp",
+      "category": "Serviços",
+      "value": 6500,
+      "dueDate": "2026-09-08",
+      "status": "recebido",
+      "receivedDate": "2026-09-08",
+      "accountId": "e014db55-d5e9-4662-94a2-7b4891c2b401"
+    },
+    {
+      "id": "25f677e3-a17e-406f-a8c9-4ba4e84dbc49",
+      "description": "Mensalidade plano Pro (12 clientes)",
+      "category": "Assinaturas",
+      "value": 3588,
+      "dueDate": "2026-09-10",
+      "status": "recebido",
+      "receivedDate": "2026-09-10",
+      "accountId": "e014db55-d5e9-4662-94a2-7b4891c2b401"
+    },
+    {
+      "id": "d1573f1b-d725-4ca2-a545-bc0df7459dc3",
+      "description": "NF 1043 — Cliente Gama",
+      "category": "Vendas",
+      "value": 5400,
+      "dueDate": "2026-09-16",
+      "status": "pendente",
+      "receivedDate": null,
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b"
+    },
+    {
+      "id": "13e1c375-c51a-4f48-9c8d-d58a5c46204b",
+      "description": "Consultoria financeira — Delta ME",
+      "category": "Consultoria",
+      "value": 2800,
+      "dueDate": "2026-09-21",
+      "status": "pendente",
+      "receivedDate": null,
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b"
+    },
+    {
+      "id": "0b0286cb-b9c5-4fb7-8a3c-759216bf025f",
+      "description": "Comissão parceria logística",
+      "category": "Comissões",
+      "value": 940.2,
+      "dueDate": "2026-09-24",
+      "status": "pendente",
+      "receivedDate": null,
+      "accountId": "e014db55-d5e9-4662-94a2-7b4891c2b401"
+    },
+    {
+      "id": "22d960bb-ffea-41b5-9d9a-952a772e6487",
+      "description": "NF 1044 — Cliente Épsilon",
+      "category": "Vendas",
+      "value": 7200,
+      "dueDate": "2026-09-28",
+      "status": "pendente",
+      "receivedDate": null,
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b"
+    },
+    {
+      "id": "3894c3c2-fcb4-4e8f-9e97-3c6608771362",
+      "description": "NF 1039 — Cliente Alfa",
+      "category": "Vendas",
+      "value": 8200,
+      "dueDate": "2026-08-06",
+      "status": "recebido",
+      "receivedDate": "2026-08-06",
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b"
+    },
+    {
+      "id": "95f61e4d-839c-4d55-b491-710e864597f9",
+      "description": "Mensalidades plano Pro",
+      "category": "Assinaturas",
+      "value": 3289,
+      "dueDate": "2026-08-10",
+      "status": "recebido",
+      "receivedDate": "2026-08-10",
+      "accountId": "e014db55-d5e9-4662-94a2-7b4891c2b401"
+    },
+    {
+      "id": "5396bfdf-3a6d-42af-b122-6ce2cfb9fd82",
+      "description": "Projeto app mobile — Ômega SA",
+      "category": "Serviços",
+      "value": 12400,
+      "dueDate": "2026-08-18",
+      "status": "recebido",
+      "receivedDate": "2026-08-20",
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b"
+    },
+    {
+      "id": "52ad435e-c312-4b08-b053-3317ac9b0091",
+      "description": "NF 1035 — Cliente Gama",
+      "category": "Vendas",
+      "value": 9100,
+      "dueDate": "2026-07-08",
+      "status": "recebido",
+      "receivedDate": "2026-07-08",
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b"
+    },
+    {
+      "id": "08e0c785-2eec-4a73-be50-faca7035ee93",
+      "description": "Mensalidades plano Pro",
+      "category": "Assinaturas",
+      "value": 3090,
+      "dueDate": "2026-07-10",
+      "status": "recebido",
+      "receivedDate": "2026-07-10",
+      "accountId": "e014db55-d5e9-4662-94a2-7b4891c2b401"
+    },
+    {
+      "id": "661d67b4-101a-4634-ad05-e62a2830d08f",
+      "description": "Contrato anual — Sigma Ltda (1ª parcela)",
+      "category": "Serviços",
+      "value": 5750,
+      "dueDate": "2026-10-05",
+      "status": "pendente",
+      "receivedDate": null,
+      "accountId": "e34a84a1-9ddc-460f-86d3-55cc2606570b"
+    }
+  ]
+}
