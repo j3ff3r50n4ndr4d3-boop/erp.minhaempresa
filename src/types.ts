@@ -1,0 +1,11 @@
+export type Value = string | number | boolean | null;
+export type Row = { id: string; [key: string]: Value };
+export type FieldType = 'text' | 'number' | 'currency' | 'date' | 'select' | 'textarea' | 'percent' | 'email' | 'tel';
+export type Column = { key: string; label: string; type?: FieldType; options?: string[]; required?: boolean; hideInTable?: boolean; readOnly?: boolean };
+export type Resource = { id: string; module: string; title: string; singular: string; columns: Column[]; action?: 'settle' | 'approve' | 'movement' | 'production'; statuses: string[]; description?: string };
+export type Tab = { id: string; label: string; resources?: string[]; panel?: string; description?: string };
+export type Module = { id: string; number: string; name: string; short: string; icon: string; description: string; features: string[]; tabs: Tab[]; color: string };
+export type Audit = { id: string; date: string; user: string; action: string; detail: string; module: string };
+export type Settings = { company: string; legalName: string; cnpj: string; email: string; city: string; currency: string; monthlyGoal: number; notifications: boolean; compact: boolean };
+export type AppData = { version: number; rows: Record<string, Row[]>; audit: Audit[]; settings: Settings; permissions: Record<string, string[]>; notificationsRead: boolean; integrations: Record<string, boolean>; messages: { id: string; role: 'user' | 'assistant'; text: string }[] };
+export type Period = 'today' | 'month' | 'year' | 'six';
