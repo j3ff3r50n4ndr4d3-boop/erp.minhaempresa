@@ -17,6 +17,22 @@ npm run build   # type-check + build de produção
 npm run preview # servir o build localmente
 ```
 
+## Publicação no GitHub Pages
+
+URL do projeto no GitHub Pages:
+
+```text
+https://j3ff3r50n4ndr4d3-boop.github.io/erp.minhaempresa/
+```
+
+O build de produção deve usar o subcaminho do repositório:
+
+```bash
+npm run build -- --base=/erp.minhaempresa/
+```
+
+Como o app usa roteamento por hash, por exemplo `#/finance`, não é necessário fallback de servidor para as rotas internas. Os dados continuam sendo demonstrativos e salvos no navegador de cada visitante.
+
 ## Módulos
 
 1. **Painel de Gestão · CEO** — faturamento, lucro bruto/líquido, margem de contribuição, despesas, metas, indicadores e alertas.
